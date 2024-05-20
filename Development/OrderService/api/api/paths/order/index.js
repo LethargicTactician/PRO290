@@ -1,5 +1,6 @@
 const OrderService = require("../../dal/services/OrderService");
 const orderService = new OrderService();
+const jwt = require('jsonwebtoken');
 
 module.exports = function () {
     let operations = {

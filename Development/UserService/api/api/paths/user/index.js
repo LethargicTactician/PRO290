@@ -1,5 +1,6 @@
 const UserService = require("../../dal/services/UserService");
 const userService = new UserService();
+const jwt = require('jsonwebtoken');
 
 module.exports = function () {
     let operations = {
